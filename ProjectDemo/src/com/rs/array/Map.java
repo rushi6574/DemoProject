@@ -14,8 +14,12 @@ public class Map {
 		m.put("Rohit", 103);
 		m.put("Ramesh", 104);
 		
-	System.out.println(m);
+     Set<String> set = m.keySet();
 		
+     for (String s: set) {
+    	 System.out.println(s);
+     System.out.println(m.get(s));
+     }
 		
 		
 	}
