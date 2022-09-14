@@ -14,9 +14,7 @@ public class Map {
 		m.put("Rohit", 103);
 		m.put("Ramesh", 104);
 		
-		Set<String> keySet = m.keySet();
-		for(String s :keySet )
-		System.out.println(s);
+	System.out.println(m);
 		
 		
 		
